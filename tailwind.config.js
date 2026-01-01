@@ -7,10 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        'la-blue': '#0077C8',
-        'la-gold': '#FFD100',
-        'dark-bg': '#0f172a',
-        'card-bg': '#1e293b'
+        'la-blue': '#0072BC',
+        'la-gold': '#FFC72C',
       }
     },
   },
