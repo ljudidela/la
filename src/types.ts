@@ -1,10 +1,11 @@
-export interface Camera {
+export interface Webcam {
   id: string;
-  name: string;
+  title: string;
   location: string;
-  url: string;
-  thumbnail: string;
   lat: number;
   lng: number;
-  type: 'youtube' | 'mjpeg';
+  thumbnail: string;
+  type: 'youtube' | 'image';
+  sourceUrl: string;
+  description: string;
 }
