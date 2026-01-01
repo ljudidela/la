@@ -1,23 +1,33 @@
-# LA Live Cams
+# LA Webcams Explorer
 
-A modern React application to view live webcams in Los Angeles.
+A modern, responsive web application to explore live webcams around Los Angeles using an interactive map and list view.
 
 ## Features
-- Live YouTube streams from key LA locations
-- Interactive Map (Leaflet) to select cameras
-- Responsive design with Tailwind CSS
-- Modern UI with dark mode
+- 🗺️ Interactive Map (Leaflet) with custom markers
+- 🎥 Live Webcam Feeds (YouTube Integration)
+- 📱 Fully Responsive Design (Mobile & Desktop)
+- 🎨 Modern UI with Tailwind CSS & Glassmorphism
 
-## Setup
+## Getting Started
 
 1. Install dependencies:
    ```bash
    npm install
    ```
 
-2. Run development server:
+2. Run the development server:
    ```bash
    npm run dev
    ```
 
-3. Open http://localhost:5173
+3. Build for production:
+   ```bash
+   npm run build
+   ```
+
+## Tech Stack
+- React + TypeScript
+- Vite
+- Tailwind CSS
+- React Leaflet
+- Lucide Icons
